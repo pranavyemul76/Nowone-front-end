@@ -1,0 +1,270 @@
+.cart-section .title {
+  margin-bottom: 5vh;
+}
+.laodinglayout {
+  width:10%;
+  height: 10%;
+  margin-left: auto;
+  margin-right:auto ;
+  position: relative; 
+  top: 30%;
+  
+  left: auto;
+  
+}
+.laodinglayout :nth-child(1){
+  background-color: brown;
+  height:30px;
+  width:30px;
+  border-radius:30px;
+  animation:4s infinite linear spin;
+  position: relative;
+  display: inline-block;
+
+}
+.laodinglayout :nth-child(2){
+  background-color: rgb(165, 110, 42);
+  height: 30px;
+  width: 30px;
+  border-radius:30px;
+  animation:3s infinite linear spin;
+  display: inline-block;
+}
+.laodinglayout :nth-child(3){
+  background-color: rgb(5, 139, 149);
+  height: 30px;
+  width: 30px;
+  border-radius:30px;
+  animation:2s infinite linear spin;
+  display: inline-block;
+}
+.laodinglayout :nth-child(4){
+  background-color: rgb(199, 199, 65);
+  height:30px;
+  width: 30px;
+  border-radius:30px;
+  animation:4s infinite linear spin;
+  display: inline-block;
+ 
+}
+.loading{
+  height: 50vh;
+  color:#169aa1;
+}
+@keyframes spin {
+ 25%{
+  transform: scale(0.3);
+ }
+ 50%{
+   transform: scale(1);
+ }
+ 75%{
+   transform: scale(0.3);
+ }
+ 100%{
+   transform: scale(1);
+ }
+ 
+}
+
+.cart-section .card{
+  padding: 0px ;
+  
+  margin: auto;
+  
+  max-width: 950px;
+  width: 100%;
+  box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 1rem;
+  border: transparent;
+  
+}
+
+@media (max-width: 767px) {
+  .cart-section .card {
+    margin: 7vh auto;
+  }
+
+.laodinglayout {
+  width:35%;
+  height: 10%;
+  margin-left: auto;
+  margin-right:auto ;
+  position: relative; 
+  top: 30%;
+ 
+  
+}
+}
+.cart {
+  background-color: #fff;
+ 
+  border-bottom-left-radius: 1rem;
+  border-top-left-radius: 1rem;
+}
+
+@media (max-width: 767px) {
+   .cart-section .card{
+    padding: 0px ;
+    margin: 0px;
+  }
+  .cart-section .cart {
+   
+    border-bottom-left-radius: unset;
+    border-top-right-radius: 1rem;
+  }
+}
+
+.cart-section .summary {
+  background-color: rgb(253, 248, 252);
+  border-top-right-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+  padding-right:1vh;
+  color: rgb(65, 65, 65);
+ 
+  
+  }
+
+@media (max-width: 767px) {
+  .checkout{
+    position: fixed;
+    bottom: 0%;
+    padding: 10px;
+    margin: 0px;
+  }
+  .cart-section .summary {
+    
+    border-top-right-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    padding: 3px;
+    color: rgb(65, 65, 65);
+    position: relative;
+    left: 1px;
+    margin-bottom: 57px;
+  }
+}
+
+.cart-section .summary .col-2 {
+  padding: 0;
+}
+
+.cart-section .summary .col-10 {
+  padding: 0;
+}
+
+.cart-section .row {
+  margin: 0;
+}
+
+.cart-section .title b {
+  font-size: 1.5rem;
+}
+
+.cart-section .main {
+  margin: 0;
+  padding: 2vh 0;
+  width: 100%;
+}
+
+.cart-section .col-2,
+.col {
+  padding: 0 1vh;
+}
+
+.cart-section a {
+  padding: 0 1vh;
+}
+
+.cart-section .close {
+  margin-left: auto;
+  font-size: 0.7rem;
+}
+
+.cart-section img {
+  width: 3.5rem;
+}
+
+.cart-section .back-to-shop {
+  margin-top: 3rem;
+}
+
+.cart-section h5 {
+  margin-top: 4vh;
+}
+
+.cart-section hr {
+  margin-top: 1.25rem;
+}
+
+.cart-section form {
+  padding: 2vh 0;
+}
+
+.cart-section select {
+  border: 1px solid rgba(0, 0, 0, 0.137);
+  padding: 0.5vh 1vh;
+  margin-bottom: 4vh;
+  outline: none;
+  width: 100%;
+  background-color: rgb(247, 247, 247);
+}
+
+.cart-section input {
+  border: 1px solid rgba(0, 0, 0, 0.137);
+  padding: 1vh;
+  margin-bottom: 4vh;
+  outline: none;
+  width: 100%;
+  background-color: rgb(247, 247, 247);
+}
+
+.cart-section input:focus::-webkit-input-placeholder {
+  color: transparent;
+}
+
+.cart-section .btn {
+  background-color: rgb(85, 176, 110);
+  border-color: #000;
+  color: white;
+  width: 100%;
+  
+  font-size: 0.7rem;
+  margin-top: 4vh;
+  padding: 1vh;
+  border-radius: 0;
+}
+
+.cart-section .btn:focus {
+  box-shadow: none;
+  outline: none;
+  box-shadow: none;
+  color: white;
+  -webkit-box-shadow: none;
+
+  transition: none;
+}
+
+.cart-section .btn:hover {
+  color: white;
+}
+
+.cart-section a {
+  color: black;
+}
+
+.cart-section a:hover {
+  color: black;
+  text-decoration: none;
+}
+
+.cart-section #code {
+  background-image: linear-gradient(
+      to left,
+      rgba(255, 255, 255, 0.253),
+      rgba(255, 255, 255, 0.185)
+    ),
+    url("https://img.icons8.com/small/16/000000/long-arrow-right.png");
+  background-repeat: no-repeat;
+  background-position-x: 95%;
+  background-position-y: center;
+}

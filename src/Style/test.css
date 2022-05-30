@@ -1,0 +1,94 @@
+.FilterSectionLayout {
+  height: 100%;
+  width: 0%;
+  z-index: 1;
+  background-color: white;
+  position: fixed;
+  top: 40px;
+  visibility: hidden;
+  transition: 0.4s all;
+}
+
+.FilterSectionLayout > div {
+  position: relative;
+  top: 0px;
+  height: 93%;
+  width: 100%;
+}
+.FilterSectionLayout > div .FilterContents {
+  top: 0%;
+  position: absolute;
+  height: 93%;
+  width: 100%;
+  overflow: scroll;
+}
+.FilterSectionLayout .FilterSaveInfo {
+  position: fixed;
+  bottom: 0px;
+  height: 7vh;
+  width: 100%;
+  background-color: brown;
+  display: flex;
+}
+
+.brandcorsol {
+  width: 100%;
+  display: flex;
+  overflow-x: scroll;
+}
+.brandcorsol::-webkit-scrollbar {
+  display: none;
+}
+.FilterSectionLayout input[type="checkbox"] {
+  display: none;
+}
+.ClearOrcancel {
+  width: 50%;
+  background-color: orange;
+  position: relative;
+  padding-top: 13px;
+  text-align: center;
+  color: white;
+  font-size: large;
+  font-weight: 700;
+}
+.FilterApply {
+  width: 50%;
+  background-color: blueviolet;
+  color: white;
+  font-size: large;
+  font-weight: 700;
+}
+.selectFilter span {
+  height: fit-content;
+  border-radius: 20px;
+  width: max-content;
+  background-color: white;
+  overflow: hidden;
+  border: 1px solid;
+  margin-top: 5px;
+  margin-left: 17px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  display: inline-block;
+  padding-left: 15px;
+  padding-right: 15px;
+  text-align: center;
+  font-weight: 700;
+  transition: all 0.3s;
+  opacity: 1;
+}
+.titleOffilter {
+  padding: 4px;
+  font-size: large;
+  font-weight: 700;
+}
+.titleOffilter span {
+  margin-left: 10px;
+}
+
+.FilterSectionLayout input[type="checkbox"]:checked ~ span {
+  opacity: 1;
+  transform: rotate(0deg);
+  background-color: rgb(232, 248, 7);
+}

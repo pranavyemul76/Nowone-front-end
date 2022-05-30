@@ -1,0 +1,235 @@
+.social-links a {
+  font-size: xx-large;
+  margin: 10px;
+}
+.product-content {
+  padding-left: 10px;
+}
+.product-content h3 {
+  width: 60%;
+  color: brown;
+}
+.price-section {
+  display: inline-flex;
+  padding: 4px;
+}
+.product-subtitle {
+  padding: 4px;
+}
+.price-section .Pprice {
+  font-size: larger;
+  text-decoration: line-through;
+  position: relative;
+  margin-right: 3px;
+  margin-left: 15px;
+  top: 14px;
+  color: rgba(153, 146, 141, 0.884);
+}
+.price-section .Poffer-price {
+  font-size: 34px;
+  font-weight: 500;
+}
+.price-section .Pdiscount {
+  font-size: 16px;
+  position: relative;
+  font-weight: 500;
+  color: #26a541;
+  top: 17px;
+  left: 10px;
+}
+.product-content .product-price-title {
+  font-size: large;
+  color: #26a541;
+}
+.product-rating {
+  margin-top: 8px;
+}
+.product-rating span {
+  height: auto;
+  width: auto;
+  border-radius: 14px;
+  margin: 3px;
+  font-size: larger;
+  color: white;
+  padding: 3px 10px 3px 10px;
+  background-color: #388e3c;
+}
+.product-rating label {
+  margin-left: 10px;
+  font-size: larger;
+  color: rgba(94, 85, 85, 0.733);
+}
+.product-detail {
+  margin-top: 10px;
+  position: relative;
+  left: -15px;
+}
+.product-detail ul {
+  margin: 0;
+  font-size: 0.9rem;
+}
+.product-detail {
+  padding: 0px 0px 10px 0px;
+}
+
+.product-detail ul li {
+  margin-left: 8px;
+  list-style: none;
+  background: url(https://fadzrinmadu.github.io/hosted-assets/product-detail-page-design-with-image-slider-html-css-and-javascript/checked.png)
+    left center no-repeat;
+  background-size: 18px;
+  padding-left: 1.7rem;
+  margin: 0.4rem 0;
+  font-weight: 600;
+  opacity: 0.9;
+}
+
+.purchase-info label {
+  position: relative;
+  top: 43px;
+  font-size: larger;
+}
+.size-title {
+  font-size: large;
+  padding: 8px 0px 8px 7px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.sel-size {
+  display: inline-flex;
+  width: 50px;
+  height: 40px;
+  text-align: center;
+  margin: 1px;
+  margin-left: 8px;
+  padding: 7px;
+  text-align: center;
+  padding-top: 4px;
+  font-size: larger;
+  font-weight: 400;
+  border: 1px solid rgba(139, 145, 113, 0.568);
+}
+.sel-size:hover {
+  border: 1px solid;
+}
+.ul-size input {
+  display: none;
+}
+input[type="radio"]:checked ~ .sel-size {
+  border: 3px solid rebeccapurple;
+}
+.notification {
+  position: fixed;
+  top: 8%;
+  height: 50px;
+  width: 200px;
+  z-index: 1000;
+  animation-name: notification;
+  animation-duration: 0.1s;
+  right: 1%;
+  background-color: burlywood;
+}
+.true {
+  border: 3px solid;
+  border-radius: 30px;
+}
+@keyframes notification {
+  0% {
+    top: 4%;
+  }
+  25% {
+    top: 5%;
+  }
+  50% {
+    top: 6%;
+  }
+  75% {
+    top: 7%;
+  }
+  100% {
+    top: 10%;
+  }
+}
+.Addtocart {
+  outline: none;
+  border: none;
+  background-color: #e79703d5;
+  color: white;
+  height: 48px;
+  width: 150px;
+  font-size: larger;
+  font-weight: 400;
+  margin: 4px 4px 6px 8px;
+}
+
+.Buynow {
+  outline: none;
+  border: none;
+  background-color: #fb641b;
+  color: white;
+  height: 48px;
+  width: 150px;
+  font-size: larger;
+  font-weight: 400;
+}
+@media only screen and (max-width: 768px) {
+  .show-img {
+    overflow: hidden;
+    height: 400px;
+  }
+  .detailpage {
+    padding: 0px;
+  }
+  .product-content {
+    padding: 0px;
+  }
+  .PSHOW-img {
+    overflow: hidden;
+    height: 400px;
+    width: 300px;
+  }
+  .product-detail {
+    padding: 0px 0px 0px 0px;
+  }
+  .detail-display-img {
+    height: 70px;
+    width: 100%;
+  }
+  .product-detail ul {
+    padding-left: 7%;
+  }
+  .img-item {
+    margin: 13px;
+  }
+  .product-subtitle {
+    padding: 1px;
+  }
+  .Addtocart {
+    outline: none;
+    border: none;
+    background-color: #e79703d5;
+    color: white;
+    height: 48px;
+    width: 150px;
+    font-size: larger;
+    font-weight: 400;
+    margin: 4px 4px 6px 8px;
+  }
+  .Buynow {
+    outline: none;
+    border: none;
+    background-color: #fb641b;
+    color: white;
+    height: 48px;
+    width: 100px;
+    font-size: larger;
+    font-weight: 400;
+  }
+  .size-title {
+    font-size: large;
+    padding: 3px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  .ul-size {
+    padding: 0px;
+  }
+}
