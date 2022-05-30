@@ -1,0 +1,171 @@
+.BagOrUserLogin {
+  position: absolute;
+  right: 3%;
+  align-items: center;
+}
+.userlogin, .BagOrUserLogin .cart{
+  padding-left: 10px;
+  margin-left: 13px;
+  margin-right: 17px;
+  font-size: large;
+  display: inline-block;
+  color: rgb(15, 14, 14);
+}
+.layout{
+
+  position: relative;
+  top: 70px;
+
+}
+@media only screen and (max-width: 768px) {
+  .navbar {
+    min-height: 40px !important;
+    max-height: 40px !important;
+    padding: 0;
+    padding-bottom: 0%;
+  }
+  .layout {
+    position: relative;
+    top: 55px;
+  }
+  .phone-your-orders {
+   padding-left: 10px;
+  }
+  .phone-your-orders, .phone-logout, .phone-login {
+      padding-left: 20px;
+      margin-bottom: 4px;
+      padding-right: 10px;
+      padding-bottom: 10px;
+      padding-top: 4px;
+      color: white;
+      font-weight: 700;
+  }
+  .navbar-toggler {
+    position: absolute;
+    top: 0%;
+    height: 40px;
+    transition: 1s all;
+    border: none !important;
+    border-radius: 0px;
+    outline: none !important;
+    box-shadow: none !important;
+    padding-top: 0.3125rem;
+    padding-bottom: 0.8125rem;
+  }
+  .navbar-toggler i {
+    font-size: 30px;
+  }
+  .collapse.show {
+    display: block;
+    max-height: 100vh;
+    overflow: auto;
+    transition: 0.6s all;
+  }
+
+  .collapse.show::-webkit-scrollbar {
+    display: none;
+  }
+  .UserInfo {
+    height: 21%;
+    width: 100%;
+    background-color: blueviolet;
+  }
+  .category-list {
+    width: 100%;
+    background-color: rgb(17, 40, 77);
+    height: 95vh;
+    color: white;
+    overflow-x: scroll;
+    z-index: 1000;
+    position: relative;
+  }
+  .navbar-brand {
+    margin-left: 70px;
+  }
+
+  body ::-webkit-scrollbar {
+    display: none;
+  }
+  .category-list > div > ul > li > a,
+  .category-list > div > ul > div > div > li > a {
+    text-decoration: none;
+    color: white;
+    font-weight: 700 !important;
+    pointer-events: none;
+  }
+  .category-list > div > ul > li {
+    padding: 7px 7px 7px 7px;
+    position: relative;
+  }
+  .category-list > div > ul > li span {
+    position: absolute;
+    top: 30%;
+    right: 3%;
+  }
+  .category-list > div > ul {
+    padding-left: 13px;
+  }
+  .category-list > div > ul > div > div > li {
+    padding: 10px 7px 10px 7px;
+    position: relative;
+    border-top: 0.3px solid rgb(43, 183, 226);
+  }
+  .category-list > div > ul > div > div > li span {
+    position: absolute;
+    align-items: center;
+    right: 8%;
+  }
+  .category-list > div > ul > div > div > div > div > li {
+    padding: 10px 7px 10px 7px;
+    position: relative;
+  }
+
+  .category-list > div > ul > div > div > div > div > li a {
+    color: white;
+    font-weight: 700 !important;
+    padding-left: 17px;
+  }
+  .category-list > div > ul > div > div > div > div > li > span {
+    display: none;
+  }
+  .category-list li {
+    list-style: none;
+    padding: 3px;
+  }
+  .navbar-toggler[aria-expanded="true"] {
+    background-color: rgb(5, 9, 36) !important;
+    transition: 0.1s all;
+    border-radius: 0px;
+    border: 0px;
+    transition: 1s all;
+  }
+  .navbar-toggler[aria-expanded="true"] i {
+    color: white;
+  }
+  .BagOrUserLogin {
+    position: absolute;
+    right: 0%;
+    top: 8px;
+  }
+  .cart-count {
+    background-color: #a07c5f;
+    padding: 4px 8px 4px 8px;
+    position: relative;
+    left: -10px;
+    top: -15px;
+    color: white;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    animation-name: count;
+    animation-duration: 1.7s;
+    font-size: 7.8px;
+    border-radius: 40px;
+  }
+  .BagOrUserLogin a {
+    padding-left: 10px;
+    margin-left: 13px;
+    margin-right: 13px;
+    font-size: large;
+    display: inline-block;
+    color: rgb(15, 14, 14);
+  }
+}

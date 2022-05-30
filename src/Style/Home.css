@@ -1,0 +1,139 @@
+.top_cat_item {
+  font-size: x-large;
+  width: 19.7%;
+  height: 100px;
+  margin-left: 7%;
+  margin-bottom: 7%;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.carousel_img {
+  width: 100%;
+  height: 500px;
+}
+
+.img_shirt {
+  width: 140px;
+  height: 130px;
+  border-radius: 50%;
+  box-shadow: 3px 3px rgb(240, 230, 230);
+}
+.img_shirt:hover {
+  transform: rotateY(200deg);
+}
+.feature {
+  text-align: center;
+  margin-left: 88px;
+  height: 500px;
+  margin-bottom: 40px;
+}
+.feature_img {
+  height: 500px;
+}
+.footer {
+  background-color: #02091a;
+  padding: 70px 0;
+  position: relative;
+  top: 15px;
+}
+.footer-col {
+  width: 25%;
+  padding: 0 15px;
+}
+
+.footer-col h4 {
+  font-size: 18px;
+  color: #ffffff;
+  text-transform: capitalize;
+  margin-bottom: 35px;
+  font-weight: 500;
+  position: relative;
+}
+.footer-col ul li:not(:last-child) {
+  margin-bottom: 10px;
+}
+.footer-col ul li a {
+  font-size: 16px;
+  text-transform: capitalize;
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: 300;
+  color: #bbbbbb;
+  display: block;
+  transition: all 0.3s ease;
+}
+.footer-col ul li a:hover {
+  color: #ffffff;
+  padding-left: 8px;
+}
+.footer-col .social-links a {
+  display: inline-block;
+  height: 40px;
+  width: 40px;
+  background-color: rgba(255, 255, 255, 0.2);
+  margin: 0 10px 10px 0;
+  text-align: center;
+  line-height: 40px;
+  border-radius: 50%;
+  color: #ffffff;
+  transition: all 0.5s ease;
+}
+.footer-col .social-links a:hover {
+  color: #24262b;
+  background-color: #ffffff;
+}
+
+@media (max-width: 767px) {
+  .footer-col {
+    width: 50%;
+    margin-bottom: 30px;
+  }
+}
+@media (max-width: 574px) {
+  .footer-col {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .carousel_img {
+    width: 100%;
+    height: 150px;
+  }
+
+  .top_cat_item {
+    width: 19.7%;
+    height: 80px;
+    margin-left: 4%;
+    margin-bottom: 0%;
+    text-align: center;
+    margin-top: 37px;
+    font-size: smaller;
+  }
+
+  .img_shirt {
+    position: absolute;
+    left: 1%;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    box-shadow: 1px 1px white;
+    margin-bottom: 10px;
+  }
+  .font-t_shirt {
+    position: absolute;
+    top: 98%;
+  }
+  .tranding {
+    overflow: scroll;
+  }
+  .feature {
+    margin: 0%;
+    height: 200px;
+    margin-bottom: 40px;
+  }
+  .feature_img {
+    height: 200px;
+  }
+}
